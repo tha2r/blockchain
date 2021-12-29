@@ -4,7 +4,7 @@ class BlockDB extends SQLite3
 {
 	public $condition = '00';
 	public $last_block =false;
-	public $max_block_data_size=4000;
+	public $max_block_data_size=4*1024*1024;
 	public $nodeid=0;
 
     function __construct()
