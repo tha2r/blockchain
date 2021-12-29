@@ -129,8 +129,8 @@ while (true) {
                         {
                             $choices[]=$kk;
                         }
-                        $rand_choice = rand(0,(count($choices)-1));
                     }
+                    $rand_choice = rand(0,(count($choices)-1));
                     $v_lucky=$choices[$rand_choice];
                 }
                 elseif($method == 3)
