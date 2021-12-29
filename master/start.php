@@ -106,7 +106,7 @@ while (true) {
 
 
         }
-            if($cseconds >= 5)
+            if($cseconds >= 30)
             {
                 if($method == 1)
                 {
